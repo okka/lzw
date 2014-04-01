@@ -53,6 +53,5 @@ bool isindico(string dic[1000000], string p, int n){
 		
 	}	
 	
-	if(q==0) return false;
-	else return true;	
+	return !(q == 0);
 }	
